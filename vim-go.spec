@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.9
+Version  : 1.10
 Release  : 1
-URL      : https://github.com/fatih/vim-go/archive/v1.9.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.9.tar.gz
+URL      : https://github.com/fatih/vim-go/archive/v1.10.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.10.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -17,7 +17,7 @@ commands. It's highly customizable and each individual feature can be
 disabled/enabled easily.
 
 %prep
-%setup -q -n vim-go-1.9
+%setup -q -n vim-go-1.10
 
 %build
 
@@ -41,6 +41,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim80/autoload/go/guru.vim
 /usr/share/vim/vim80/autoload/go/impl.vim
 /usr/share/vim/vim80/autoload/go/import.vim
+/usr/share/vim/vim80/autoload/go/job.vim
 /usr/share/vim/vim80/autoload/go/jobcontrol.vim
 /usr/share/vim/vim80/autoload/go/lint.vim
 /usr/share/vim/vim80/autoload/go/list.vim
@@ -48,6 +49,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim80/autoload/go/path.vim
 /usr/share/vim/vim80/autoload/go/play.vim
 /usr/share/vim/vim80/autoload/go/rename.vim
+/usr/share/vim/vim80/autoload/go/statusline.vim
 /usr/share/vim/vim80/autoload/go/term.vim
 /usr/share/vim/vim80/autoload/go/textobj.vim
 /usr/share/vim/vim80/autoload/go/tool.vim
