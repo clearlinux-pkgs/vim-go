@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.11
+Version  : 1.12
 Release  : 1
-URL      : https://github.com/fatih/vim-go/archive/v1.11.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.11.tar.gz
+URL      : https://github.com/fatih/vim-go/archive/v1.12.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.12.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -17,7 +17,7 @@ commands. It's highly customizable and each individual feature can be
 disabled/enabled easily.
 
 %prep
-%setup -q -n vim-go-1.11
+%setup -q -n vim-go-1.12
 
 %build
 
@@ -79,3 +79,9 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim80/syntax/gohtmltmpl.vim
 /usr/share/vim/vim80/syntax/gotexttmpl.vim
 /usr/share/vim/vim80/syntax/vimgo.vim
+/usr/share/vim/vim80/autoload/go/tags.vim
+/usr/share/vim/vim80/autoload/go/tags_test.vim
+/usr/share/vim/vim80/autoload/go/test-fixtures/tags/add_all_golden.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/tags/add_all_input.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/tags/remove_all_golden.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/tags/remove_all_input.go
