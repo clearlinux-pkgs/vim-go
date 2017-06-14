@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.12
-Release  : 2
-URL      : https://github.com/fatih/vim-go/archive/v1.12.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.12.tar.gz
+Version  : 1.13
+Release  : 3
+URL      : https://github.com/fatih/vim-go/archive/v1.13.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.13.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -17,7 +17,7 @@ commands. It's highly customizable and each individual feature can be
 disabled/enabled easily.
 
 %prep
-%setup -q -n vim-go-1.12
+%setup -q
 
 %build
 
@@ -43,6 +43,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim80/autoload/go/import.vim
 /usr/share/vim/vim80/autoload/go/job.vim
 /usr/share/vim/vim80/autoload/go/jobcontrol.vim
+/usr/share/vim/vim80/autoload/go/keyify.vim
 /usr/share/vim/vim80/autoload/go/lint.vim
 /usr/share/vim/vim80/autoload/go/list.vim
 /usr/share/vim/vim80/autoload/go/package.vim
@@ -81,7 +82,12 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim80/syntax/vimgo.vim
 /usr/share/vim/vim80/autoload/go/tags.vim
 /usr/share/vim/vim80/autoload/go/tags_test.vim
+/usr/share/vim/vim80/autoload/go/test-fixtures/fmt/imports/goimports.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/fmt/imports/goimports_golden.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/fmt/imports/vendor/gh.com/gi/foo-logging/logger.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/fmt/src/imports
 /usr/share/vim/vim80/autoload/go/test-fixtures/tags/add_all_golden.go
 /usr/share/vim/vim80/autoload/go/test-fixtures/tags/add_all_input.go
 /usr/share/vim/vim80/autoload/go/test-fixtures/tags/remove_all_golden.go
 /usr/share/vim/vim80/autoload/go/test-fixtures/tags/remove_all_input.go
+/usr/share/vim/vim80/autoload/go/test.vim
