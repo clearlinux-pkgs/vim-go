@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.13
+Version  : 1.14
 Release  : 3
-URL      : https://github.com/fatih/vim-go/archive/v1.13.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.13.tar.gz
+URL      : https://github.com/fatih/vim-go/archive/v1.14.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.14.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
