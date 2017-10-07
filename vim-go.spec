@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.14
+Version  : 1.15
 Release  : 3
-URL      : https://github.com/fatih/vim-go/archive/v1.14.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.14.tar.gz
+URL      : https://github.com/fatih/vim-go/archive/v1.15.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.15.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -91,3 +91,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim80/autoload/go/test-fixtures/tags/remove_all_golden.go
 /usr/share/vim/vim80/autoload/go/test-fixtures/tags/remove_all_input.go
 /usr/share/vim/vim80/autoload/go/test.vim
+/usr/share/vim/vim80/autoload/fzf/decls.vim
+/usr/share/vim/vim80/autoload/go/decls.vim
+/usr/share/vim/vim80/autoload/go/fillstruct.vim
+/usr/share/vim/vim80/autoload/unite/sources/decls.vim
