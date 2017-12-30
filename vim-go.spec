@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.15
+Version  : 1.16
 Release  : 3
-URL      : https://github.com/fatih/vim-go/archive/v1.15.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.15.tar.gz
+URL      : https://github.com/fatih/vim-go/archive/v1.16.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.16.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -95,3 +95,12 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim80/autoload/go/decls.vim
 /usr/share/vim/vim80/autoload/go/fillstruct.vim
 /usr/share/vim/vim80/autoload/unite/sources/decls.vim
+/usr/share/vim/vim80/autoload/go/fillstruct_test.vim
+/usr/share/vim/vim80/autoload/go/impl_test.vim
+/usr/share/vim/vim80/autoload/go/test-fixtures/test/.gitignore
+/usr/share/vim/vim80/autoload/go/test-fixtures/test/src/compilerror/compilerror.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/test/src/play/mock/controller.go
+/usr/share/vim/vim80/autoload/go/test-fixtures/test/src/play/play_test.go
+/usr/share/vim/vim80/autoload/go/test_test.vim
+/usr/share/vim/vim80/autoload/go/tool_test.vim
+/usr/share/vim/vim80/autoload/gotest.vim
