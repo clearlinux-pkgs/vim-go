@@ -1,6 +1,6 @@
 Name     : vim-go
 Version  : 1.16
-Release  : 3
+Release  : 4
 URL      : https://github.com/fatih/vim-go/archive/v1.16.tar.gz
 Source0  : https://github.com/fatih/vim-go/archive/v1.16.tar.gz
 Summary  : No detailed summary available
