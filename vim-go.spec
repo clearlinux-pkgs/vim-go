@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.17
-Release  : 7
-URL      : https://github.com/fatih/vim-go/archive/v1.17.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.17.tar.gz
+Version  : 1.18
+Release  : 8
+URL      : https://github.com/fatih/vim-go/archive/v1.18.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.18.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -36,6 +36,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim81/autoload/go/cmd.vim
 /usr/share/vim/vim81/autoload/go/cmd_test.vim
 /usr/share/vim/vim81/autoload/go/complete.vim
+/usr/share/vim/vim81/autoload/go/config.vim
 /usr/share/vim/vim81/autoload/go/coverage.vim
 /usr/share/vim/vim81/autoload/go/debug.vim
 /usr/share/vim/vim81/autoload/go/decls.vim
@@ -47,9 +48,12 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim81/autoload/go/fmt.vim
 /usr/share/vim/vim81/autoload/go/fmt_test.vim
 /usr/share/vim/vim81/autoload/go/guru.vim
+/usr/share/vim/vim81/autoload/go/guru_test.vim
+/usr/share/vim/vim81/autoload/go/iferr.vim
 /usr/share/vim/vim81/autoload/go/impl.vim
 /usr/share/vim/vim81/autoload/go/impl_test.vim
 /usr/share/vim/vim81/autoload/go/import.vim
+/usr/share/vim/vim81/autoload/go/issue.vim
 /usr/share/vim/vim81/autoload/go/job.vim
 /usr/share/vim/vim81/autoload/go/jobcontrol.vim
 /usr/share/vim/vim81/autoload/go/keyify.vim
@@ -88,7 +92,9 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/play/mock/controller.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/play/play_test.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/showname/showname_test.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/test/src/testcompilerror/testcompilerror_test.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/timeout/timeout_test.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/test/src/veterror/veterror.go
 /usr/share/vim/vim81/autoload/go/test.vim
 /usr/share/vim/vim81/autoload/go/test_test.vim
 /usr/share/vim/vim81/autoload/go/textobj.vim
