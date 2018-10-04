@@ -1,6 +1,6 @@
 Name     : vim-go
 Version  : 1.18
-Release  : 8
+Release  : 9
 URL      : https://github.com/fatih/vim-go/archive/v1.18.tar.gz
 Source0  : https://github.com/fatih/vim-go/archive/v1.18.tar.gz
 Summary  : No detailed summary available
@@ -24,7 +24,7 @@ disabled/enabled easily.
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/vim/vim81
-cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
+cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} \
     %{buildroot}/usr/share/vim/vim81
 
 %files
@@ -125,3 +125,5 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax} \
 /usr/share/vim/vim81/syntax/gohtmltmpl.vim
 /usr/share/vim/vim81/syntax/gotexttmpl.vim
 /usr/share/vim/vim81/syntax/vimgo.vim
+/usr/share/vim/vim81/templates/hello_world.go
+/usr/share/vim/vim81/templates/hello_world_test.go
