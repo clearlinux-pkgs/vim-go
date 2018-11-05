@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.18
-Release  : 9
-URL      : https://github.com/fatih/vim-go/archive/v1.18.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.18.tar.gz
+Version  : 1.19
+Release  : 10
+URL      : https://github.com/fatih/vim-go/archive/v1.19.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.19.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -36,6 +36,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/cmd.vim
 /usr/share/vim/vim81/autoload/go/cmd_test.vim
 /usr/share/vim/vim81/autoload/go/complete.vim
+/usr/share/vim/vim81/autoload/go/complete_test.vim
 /usr/share/vim/vim81/autoload/go/config.vim
 /usr/share/vim/vim81/autoload/go/coverage.vim
 /usr/share/vim/vim81/autoload/go/debug.vim
@@ -49,17 +50,19 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/fmt_test.vim
 /usr/share/vim/vim81/autoload/go/guru.vim
 /usr/share/vim/vim81/autoload/go/guru_test.vim
+/usr/share/vim/vim81/autoload/go/highlight_test.vim
 /usr/share/vim/vim81/autoload/go/iferr.vim
 /usr/share/vim/vim81/autoload/go/impl.vim
 /usr/share/vim/vim81/autoload/go/impl_test.vim
 /usr/share/vim/vim81/autoload/go/import.vim
+/usr/share/vim/vim81/autoload/go/indent_test.vim
 /usr/share/vim/vim81/autoload/go/issue.vim
 /usr/share/vim/vim81/autoload/go/job.vim
-/usr/share/vim/vim81/autoload/go/jobcontrol.vim
 /usr/share/vim/vim81/autoload/go/keyify.vim
 /usr/share/vim/vim81/autoload/go/lint.vim
 /usr/share/vim/vim81/autoload/go/lint_test.vim
 /usr/share/vim/vim81/autoload/go/list.vim
+/usr/share/vim/vim81/autoload/go/mod.vim
 /usr/share/vim/vim81/autoload/go/package.vim
 /usr/share/vim/vim81/autoload/go/path.vim
 /usr/share/vim/vim81/autoload/go/play.vim
@@ -71,6 +74,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/term.vim
 /usr/share/vim/vim81/autoload/go/term_test.vim
 /usr/share/vim/vim81/autoload/go/test-fixtures/cmd/bad.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/complete/complete.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/def/jump.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/fmt/hello.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/fmt/hello_golden.go
@@ -114,6 +118,9 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/ftplugin/go/snippets.vim
 /usr/share/vim/vim81/ftplugin/go/tagbar.vim
 /usr/share/vim/vim81/ftplugin/gohtmltmpl.vim
+/usr/share/vim/vim81/ftplugin/gomod.vim
+/usr/share/vim/vim81/ftplugin/gomod/commands.vim
+/usr/share/vim/vim81/ftplugin/gomod/mappings.vim
 /usr/share/vim/vim81/indent/go.vim
 /usr/share/vim/vim81/indent/gohtmltmpl.vim
 /usr/share/vim/vim81/plugin/go.vim
@@ -123,6 +130,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/syntax/godebugvariables.vim
 /usr/share/vim/vim81/syntax/godefstack.vim
 /usr/share/vim/vim81/syntax/gohtmltmpl.vim
+/usr/share/vim/vim81/syntax/gomod.vim
 /usr/share/vim/vim81/syntax/gotexttmpl.vim
 /usr/share/vim/vim81/syntax/vimgo.vim
 /usr/share/vim/vim81/templates/hello_world.go
