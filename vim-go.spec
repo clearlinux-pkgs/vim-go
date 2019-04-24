@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.19
-Release  : 10
-URL      : https://github.com/fatih/vim-go/archive/v1.19.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.19.tar.gz
+Version  : 1.20
+Release  : 11
+URL      : https://github.com/fatih/vim-go/archive/v1.20/vim-go-1.20.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.20/vim-go-1.20.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -33,6 +33,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/fzf/decls.vim
 /usr/share/vim/vim81/autoload/go/alternate.vim
 /usr/share/vim/vim81/autoload/go/asmfmt.vim
+/usr/share/vim/vim81/autoload/go/auto.vim
 /usr/share/vim/vim81/autoload/go/cmd.vim
 /usr/share/vim/vim81/autoload/go/cmd_test.vim
 /usr/share/vim/vim81/autoload/go/complete.vim
@@ -40,6 +41,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/config.vim
 /usr/share/vim/vim81/autoload/go/coverage.vim
 /usr/share/vim/vim81/autoload/go/debug.vim
+/usr/share/vim/vim81/autoload/go/debug_test.vim
 /usr/share/vim/vim81/autoload/go/decls.vim
 /usr/share/vim/vim81/autoload/go/def.vim
 /usr/share/vim/vim81/autoload/go/def_test.vim
@@ -62,8 +64,12 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/lint.vim
 /usr/share/vim/vim81/autoload/go/lint_test.vim
 /usr/share/vim/vim81/autoload/go/list.vim
+/usr/share/vim/vim81/autoload/go/lsp.vim
+/usr/share/vim/vim81/autoload/go/lsp/completionitemkind.vim
+/usr/share/vim/vim81/autoload/go/lsp/message.vim
 /usr/share/vim/vim81/autoload/go/mod.vim
 /usr/share/vim/vim81/autoload/go/package.vim
+/usr/share/vim/vim81/autoload/go/package_test.vim
 /usr/share/vim/vim81/autoload/go/path.vim
 /usr/share/vim/vim81/autoload/go/play.vim
 /usr/share/vim/vim81/autoload/go/rename.vim
@@ -71,10 +77,13 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/tags.vim
 /usr/share/vim/vim81/autoload/go/tags_test.vim
 /usr/share/vim/vim81/autoload/go/template.vim
+/usr/share/vim/vim81/autoload/go/template_test.vim
 /usr/share/vim/vim81/autoload/go/term.vim
 /usr/share/vim/vim81/autoload/go/term_test.vim
 /usr/share/vim/vim81/autoload/go/test-fixtures/cmd/bad.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/complete/complete.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/debug/compilerror/main.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/debug/debugmain/debugmain.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/def/jump.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/fmt/hello.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/fmt/hello_golden.go
@@ -86,7 +95,13 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/lint/lint.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/lint/quux.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/vet/vet.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/package/src/package/bar/.gitkeep
+/usr/share/vim/vim81/autoload/go/test-fixtures/package/src/package/baz/.gitkeep
+/usr/share/vim/vim81/autoload/go/test-fixtures/package/src/package/go.mod
+/usr/share/vim/vim81/autoload/go/test-fixtures/package/src/package/package.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/package/src/package/vendor/foo/.gitkeep
 /usr/share/vim/vim81/autoload/go/test-fixtures/tags/add_all_golden.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/tags/add_all_golden_options.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/tags/add_all_input.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/tags/remove_all_golden.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/tags/remove_all_input.go
@@ -105,6 +120,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/tool.vim
 /usr/share/vim/vim81/autoload/go/tool_test.vim
 /usr/share/vim/vim81/autoload/go/ui.vim
+/usr/share/vim/vim81/autoload/go/uri.vim
 /usr/share/vim/vim81/autoload/go/util.vim
 /usr/share/vim/vim81/autoload/gotest.vim
 /usr/share/vim/vim81/autoload/unite/sources/decls.vim
