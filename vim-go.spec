@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.20
-Release  : 11
-URL      : https://github.com/fatih/vim-go/archive/v1.20/vim-go-1.20.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.20/vim-go-1.20.tar.gz
+Version  : 1.21
+Release  : 12
+URL      : https://github.com/fatih/vim-go/archive/v1.21/vim-go-1.21.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.21/vim-go-1.21.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -60,18 +60,24 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/indent_test.vim
 /usr/share/vim/vim81/autoload/go/issue.vim
 /usr/share/vim/vim81/autoload/go/job.vim
+/usr/share/vim/vim81/autoload/go/job_test.vim
 /usr/share/vim/vim81/autoload/go/keyify.vim
 /usr/share/vim/vim81/autoload/go/lint.vim
 /usr/share/vim/vim81/autoload/go/lint_test.vim
 /usr/share/vim/vim81/autoload/go/list.vim
 /usr/share/vim/vim81/autoload/go/lsp.vim
 /usr/share/vim/vim81/autoload/go/lsp/completionitemkind.vim
+/usr/share/vim/vim81/autoload/go/lsp/lsp.vim
+/usr/share/vim/vim81/autoload/go/lsp/lsp_test.vim
 /usr/share/vim/vim81/autoload/go/lsp/message.vim
+/usr/share/vim/vim81/autoload/go/lsp_test.vim
 /usr/share/vim/vim81/autoload/go/mod.vim
 /usr/share/vim/vim81/autoload/go/package.vim
 /usr/share/vim/vim81/autoload/go/package_test.vim
 /usr/share/vim/vim81/autoload/go/path.vim
 /usr/share/vim/vim81/autoload/go/play.vim
+/usr/share/vim/vim81/autoload/go/promise.vim
+/usr/share/vim/vim81/autoload/go/promise_test.vim
 /usr/share/vim/vim81/autoload/go/rename.vim
 /usr/share/vim/vim81/autoload/go/statusline.vim
 /usr/share/vim/vim81/autoload/go/tags.vim
@@ -91,9 +97,11 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/test-fixtures/fmt/imports/goimports_golden.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/fmt/imports/vendor/gh.com/gi/foo-logging/logger.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/fmt/src/imports
+"/usr/share/vim/vim81/autoload/go/test-fixtures/job/dir has spaces/main.go"
 /usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/foo/foo.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/lint/lint.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/lint/quux.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/vet/compilererror/compilererror.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/lint/src/vet/vet.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/package/src/package/bar/.gitkeep
 /usr/share/vim/vim81/autoload/go/test-fixtures/package/src/package/baz/.gitkeep
@@ -108,6 +116,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim81/autoload/go/test-fixtures/term/term.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/.gitignore
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/compilerror/compilerror.go
+/usr/share/vim/vim81/autoload/go/test-fixtures/test/src/example/example_test.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/play/mock/controller.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/play/play_test.go
 /usr/share/vim/vim81/autoload/go/test-fixtures/test/src/showname/showname_test.go
