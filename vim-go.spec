@@ -1,6 +1,6 @@
 Name     : vim-go
 Version  : 1.21
-Release  : 12
+Release  : 13
 URL      : https://github.com/fatih/vim-go/archive/v1.21/vim-go-1.21.tar.gz
 Source0  : https://github.com/fatih/vim-go/archive/v1.21/vim-go-1.21.tar.gz
 Summary  : No detailed summary available
