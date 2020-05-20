@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.22
-Release  : 15
-URL      : https://github.com/fatih/vim-go/archive/v1.22/vim-go-1.22.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.22/vim-go-1.22.tar.gz
+Version  : 1.23
+Release  : 16
+URL      : https://github.com/fatih/vim-go/archive/v1.23/vim-go-1.23.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.23/vim-go-1.23.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -57,7 +57,9 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/iferr.vim
 /usr/share/vim/vim82/autoload/go/impl.vim
 /usr/share/vim/vim82/autoload/go/impl_test.vim
+/usr/share/vim/vim82/autoload/go/implements.vim
 /usr/share/vim/vim82/autoload/go/import.vim
+/usr/share/vim/vim82/autoload/go/import_test.vim
 /usr/share/vim/vim82/autoload/go/indent_test.vim
 /usr/share/vim/vim82/autoload/go/issue.vim
 /usr/share/vim/vim82/autoload/go/job.vim
@@ -99,17 +101,25 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/test-fixtures/def/jump.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/fmt/hello.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/fmt/hello_golden.go
-/usr/share/vim/vim82/autoload/go/test-fixtures/fmt/imports/goimports.go
-/usr/share/vim/vim82/autoload/go/test-fixtures/fmt/imports/goimports_golden.go
-/usr/share/vim/vim82/autoload/go/test-fixtures/fmt/imports/vendor/gh.com/gi/foo-logging/logger.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/fmt/src/imports
 "/usr/share/vim/vim82/autoload/go/test-fixtures/job/dir has spaces/main.go"
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/errcheck/compilererror/compilererror.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/errcheck/errcheck.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/errcheck/errcheck_test.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/foo/foo.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/baz.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/golangci-lint/problems/importabs/ok.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/golangci-lint/problems/importabs/problems.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/golangci-lint/problems/multiple/problems.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/golangci-lint/problems/shadow/problems.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/lint.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/quux.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/vet/compilererror/compilererror.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/vet/vet.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lsp/fmt/format.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lsp/fmt/format_golden.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lsp/imports/imports.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lsp/imports/imports_golden.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/package/src/package/bar/.gitkeep
 /usr/share/vim/vim82/autoload/go/test-fixtures/package/src/package/baz/.gitkeep
 /usr/share/vim/vim82/autoload/go/test-fixtures/package/src/package/go.mod
@@ -137,6 +147,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/tool_test.vim
 /usr/share/vim/vim82/autoload/go/ui.vim
 /usr/share/vim/vim82/autoload/go/uri.vim
+/usr/share/vim/vim82/autoload/go/uri_test.vim
 /usr/share/vim/vim82/autoload/go/util.vim
 /usr/share/vim/vim82/autoload/gotest.vim
 /usr/share/vim/vim82/autoload/unite/sources/decls.vim
