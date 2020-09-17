@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.23
-Release  : 16
-URL      : https://github.com/fatih/vim-go/archive/v1.23/vim-go-1.23.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.23/vim-go-1.23.tar.gz
+Version  : 1.24
+Release  : 17
+URL      : https://github.com/fatih/vim-go/archive/v1.24/vim-go-1.24.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.24/vim-go-1.24.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -118,6 +118,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/vet/vet.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lsp/fmt/format.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lsp/fmt/format_golden.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lsp/fmt/newline.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lsp/imports/imports.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lsp/imports/imports_golden.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/package/src/package/bar/.gitkeep
