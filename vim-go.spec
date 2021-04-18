@@ -1,8 +1,8 @@
 Name     : vim-go
-Version  : 1.24
-Release  : 17
-URL      : https://github.com/fatih/vim-go/archive/v1.24/vim-go-1.24.tar.gz
-Source0  : https://github.com/fatih/vim-go/archive/v1.24/vim-go-1.24.tar.gz
+Version  : 1.25
+Release  : 18
+URL      : https://github.com/fatih/vim-go/archive/v1.25/vim-go-1.25.tar.gz
+Source0  : https://github.com/fatih/vim-go/archive/v1.25/vim-go-1.25.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -34,6 +34,8 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/alternate.vim
 /usr/share/vim/vim82/autoload/go/asmfmt.vim
 /usr/share/vim/vim82/autoload/go/auto.vim
+/usr/share/vim/vim82/autoload/go/calls.vim
+/usr/share/vim/vim82/autoload/go/calls_test.vim
 /usr/share/vim/vim82/autoload/go/cmd.vim
 /usr/share/vim/vim82/autoload/go/cmd_test.vim
 /usr/share/vim/vim82/autoload/go/complete.vim
@@ -106,8 +108,11 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/errcheck/compilererror/compilererror.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/errcheck/errcheck.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/errcheck/errcheck_test.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/errcheck/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/foo/foo.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/foo/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/baz.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/golangci-lint/problems/importabs/ok.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/golangci-lint/problems/importabs/problems.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/golangci-lint/problems/multiple/problems.go
@@ -115,6 +120,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/lint.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/lint/quux.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/vet/compilererror/compilererror.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/vet/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/lint/src/vet/vet.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lsp/fmt/format.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/lsp/fmt/format_golden.go
@@ -134,12 +140,19 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/autoload/go/test-fixtures/term/term.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/.gitignore
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/compilerror/compilerror.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/test/src/compilerror/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/example/example_test.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/test/src/example/go.mod
+/usr/share/vim/vim82/autoload/go/test-fixtures/test/src/play/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/play/mock/controller.go
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/play/play_test.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/test/src/showname/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/showname/showname_test.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/test/src/testcompilerror/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/testcompilerror/testcompilerror_test.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/test/src/timeout/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/timeout/timeout_test.go
+/usr/share/vim/vim82/autoload/go/test-fixtures/test/src/veterror/go.mod
 /usr/share/vim/vim82/autoload/go/test-fixtures/test/src/veterror/veterror.go
 /usr/share/vim/vim82/autoload/go/test.vim
 /usr/share/vim/vim82/autoload/go/test_test.vim
@@ -175,6 +188,7 @@ cp -ar {autoload,compiler,doc,ftdetect,ftplugin,indent,plugin,syntax,templates} 
 /usr/share/vim/vim82/syntax/godefstack.vim
 /usr/share/vim/vim82/syntax/gohtmltmpl.vim
 /usr/share/vim/vim82/syntax/gomod.vim
+/usr/share/vim/vim82/syntax/gosum.vim
 /usr/share/vim/vim82/syntax/gotexttmpl.vim
 /usr/share/vim/vim82/syntax/vimgo.vim
 /usr/share/vim/vim82/templates/hello_world.go
