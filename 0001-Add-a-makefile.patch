@@ -1,0 +1,27 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Patrick McCarty <patrick.mccarty@intel.com>
+Date: Thu, 2 Sep 2021 17:22:59 -0700
+Subject: [PATCH] Add a makefile
+
+Signed-off-by: Patrick McCarty <patrick.mccarty@intel.com>
+---
+ Makefile.clear | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+ create mode 100644 Makefile.clear
+
+diff --git a/Makefile.clear b/Makefile.clear
+new file mode 100644
+index 0000000..4f3a7b9
+--- /dev/null
++++ b/Makefile.clear
+@@ -0,0 +1,10 @@
++all: none
++
++none:
++	echo No build
++
++DIRS = autoload compiler doc ftdetect ftplugin indent plugin syntax templates
++
++install:
++	mkdir -p $(DESTDIR)/usr/share/vim/vimfiles
++	cp -a $(DIRS) $(DESTDIR)/usr/share/vim/vimfiles/
