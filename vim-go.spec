@@ -4,7 +4,7 @@
 #
 Name     : vim-go
 Version  : 1.25
-Release  : 20
+Release  : 21
 URL      : https://github.com/fatih/vim-go/archive/v1.25/vim-go-1.25.tar.gz
 Source0  : https://github.com/fatih/vim-go/archive/v1.25/vim-go-1.25.tar.gz
 Summary  : Go development plugin for Vim
@@ -12,7 +12,6 @@ Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: vim-go-data = %{version}-%{release}
 Requires: vim-go-license = %{version}-%{release}
-BuildRequires : buildreq-golang
 Patch1: 0001-Add-a-makefile.patch
 
 %description
@@ -49,7 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1630628945
+export SOURCE_DATE_EPOCH=1647893313
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -62,7 +61,7 @@ make  %{?_smp_mflags}  -f Makefile.clear
 
 
 %install
-export SOURCE_DATE_EPOCH=1630628945
+export SOURCE_DATE_EPOCH=1647893313
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/vim-go
 cp %{_builddir}/vim-go-1.25/LICENSE %{buildroot}/usr/share/package-licenses/vim-go/10a7a726771f1c426256febb7104f4620295cf74
